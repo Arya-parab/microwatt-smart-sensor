@@ -1,0 +1,18 @@
+# Build and binary files
+*.o
+*.elf
+*.bin
+*.hex
+*.vcd
+*.log
+
+# Vivado / FPGA tool outputs
+*.jou
+*.str
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.xpr
+*.bit
