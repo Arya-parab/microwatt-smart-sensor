@@ -1,18 +1,11 @@
-# Build and binary files
+# Ignore build and temporary files
 *.o
-*.elf
-*.bin
-*.hex
-*.vcd
 *.log
-
-# Vivado / FPGA tool outputs
 *.jou
-*.str
-*.runs/
-*.cache/
-*.hw/
-*.ip_user_files/
-*.sim/
-*.xpr
-*.bit
+*.vcd
+*.vvp
+*.d
+__pycache__/
+build/
+run/
+

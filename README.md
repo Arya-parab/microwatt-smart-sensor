@@ -1,30 +1,19 @@
 # Microwatt Smart Sensor Data Processor
+OpenPOWER HW Design Hackathon 2025 Project
 
-## Overview
-This project extends the Microwatt CPU core with a small hardware accelerator to process sensor data efficiently. It demonstrates IoT/edge computing use cases.
+## Project Overview
+This project implements a Microwatt-based smart sensor data processor using OpenPOWER ISA.
+It includes hardware design (VHDL/Verilog), testbenches, and software examples.
+The design is open-source and intended for reproducibility on the ChipFoundry OpenFrame platform.
 
-## Objectives
-- Integrate Microwatt with a custom moving-average accelerator.
-- Process simulated/real sensor data.
-- Output results through UART/LEDs.
-- Show how Microwatt can support IoT applications.
+## Directories
+- hw/ → Hardware RTL (VHDL/Verilog)
+- sw/ → Software drivers, example programs
+- tb/ → Testbenches for RTL verification
+- docs/ → Documentation, block diagrams, build instructions
+- logs/ → AI prompt logs, simulation logs, test results
 
-## Tools
-- Microwatt CPU core
-- FPGA tools: GHDL, Yosys, Verilator, NextPNR
-- GCC for POWER
-- Optional: Arty A7 FPGA board
+## Submodules
+- microwatt → Microwatt CPU core (OpenPOWER)
+- openframe_user_project → ChipFoundry OpenFrame platform templates
 
-## Methodology
-1. Set up Microwatt on FPGA/simulation.
-2. Add custom accelerator for averaging sensor data.
-3. Interface with simulated/real sensors.
-4. Run firmware to push samples & read results.
-
-## Expected Outcome
-- A working demo of Microwatt + custom accelerator.
-- Code, documentation, and test results.
-- Open-source repo under MIT License.
-
-## License
-MIT License

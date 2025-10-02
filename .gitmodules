@@ -1,0 +1,6 @@
+[submodule "openframe_user_project"]
+	path = openframe_user_project
+	url = https://github.com/chipfoundry/openframe_user_project
+[submodule "microwatt"]
+	path = microwatt
+	url = https://git.openpower.foundation/cores/microwatt
